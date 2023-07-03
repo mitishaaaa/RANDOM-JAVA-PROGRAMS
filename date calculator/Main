@@ -1,11 +1,10 @@
+import java.time.LocalDate;
 import java.time.Period;
 public class Main{
-public static main void(String[] args){
-LocalDate today = LocalDate.now()
+public static void main(String[] args){
+LocalDate today = LocalDate.now();
 LocalDate birthDate = LocalDate.of(2000, 1, 23);
-///Period.between(startDateInclusive, endDateExclusive);
-int years = Period.between(birthDate, today).getDays();
-
+int years = Period.between(today, birthDate).getyears();
 System.out.println(years);
  }
 }
