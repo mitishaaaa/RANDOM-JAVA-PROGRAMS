@@ -1,0 +1,12 @@
+//adding and removing objects from array list is easier than array + u have to change size of array everytime unlike array lists.
+import java.util.ArrayList;
+public class ArraylistsProj {
+public static void main(String[] args){
+ArrayList fruitList = new ArrayList();
+fruitList.add("Mango");
+fruitList.add("watermelon");
+fruitList.add("banana");
+fruitList.remove("banana");
+System.out.println(fruitList);
+}
+}
