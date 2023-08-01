@@ -5,16 +5,6 @@ public class ZombieKiller {
   String backpack[] = {"Shotgun", "Rifle", "Sniper"};
   String zombies[] = {"Close-range zombie", "Mid-range zombie", "Long-range zombie"};
 
-  System.out.println(backpack[1]);
-
-
-
-
-
-
-
-
-
-    
+  System.out.println(backpack[1]);    
   }
 }
