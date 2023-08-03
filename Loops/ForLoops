@@ -1,11 +1,12 @@
+public class ForLoops{
 public static void main(String[] args){
- for (int i = 0; i < 4; i++){
+ for(int i = 0; i < 4; i++) {
 System.out.println("I love cats!");
 } //int i = 0; is like the rule dgaf now why it is the way it is fuck this. then mention how many times u want it printed then at the end add ++/-- then print the output
 
 
 //second type. in the above loop we use string to print. in this loop we are gonna print integer and use the '<=' cos if we print <15 its gonna print 14.
-for (int i = 0; i <= 15; i++){
+for(int i = 0; i <= 15; i++) {
 System.out.println(i); 
 }
 
